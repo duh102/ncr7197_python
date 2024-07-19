@@ -9,6 +9,8 @@ __SELECT_CUT_MODE_AND_CUT_PREFIX__ = b'\x1D\x56'
 __PRINT_TEST_FORM__ = b'\x1F\x74'
 __PRINT_AND_NEWLINES_PREFIX__ = b'\x1B\x64'
 
+MAX_WIDTH = 44
+
 
 class NCR7197(object):
     def __init__(self, device):
